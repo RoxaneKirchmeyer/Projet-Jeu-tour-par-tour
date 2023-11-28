@@ -1,0 +1,18 @@
+$fontTitre : 'IM Fell English SC', serif;
+
+h1 {
+    font-family: $fontTitre;
+    font-size: 3rem;
+    text-align: center;
+    background-color: $priestColor;
+}
+
+h2 {
+    font-family: $fontTitre;
+    font-size: 2rem;
+    background-color: $priestColor;
+    width: auto;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+}

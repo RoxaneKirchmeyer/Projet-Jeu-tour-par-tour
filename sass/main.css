@@ -1,0 +1,229 @@
+@charset "UTF-8";
+/* Reset CSS */
+/* Remise à zéro des marges et des rembourrages */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box; /* Inclure les bordures et le remplissage dans la largeur et la hauteur */
+}
+
+/* Éléments HTML5 sans styles par défaut */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* Éléments en ligne rendus comme des blocs */
+ul, ol {
+  list-style: none; /* Supprimer les puces des listes ordonnées et non ordonnées */
+}
+
+/* Hyperliens sans soulignement */
+a {
+  text-decoration: none;
+}
+
+/* Texte par défaut */
+body {
+  line-height: 1;
+}
+
+/* Polices réinitialisées pour une meilleure compatibilité entre les navigateurs */
+body, button, input, select, textarea {
+  font-family: sans-serif;
+}
+
+/* Éléments avec styles visuels */
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+/* Règles pour des éléments insérés via CSS, par exemple, les pseudos-éléments */
+::after, ::before {
+  box-sizing: border-box;
+}
+
+/* Éléments de table avec une largeur et un espacement de bordure par défaut */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Éléments avec une visibilité cachée */
+[hidden] {
+  display: none;
+}
+
+/* Réinitialisation des éléments qui devraient être visibles par défaut */
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* Ajout d'un espacement minimal sur les éléments */
+body, button, input, select, textarea {
+  margin: 0.25rem; /* Vous pouvez ajuster la valeur selon vos besoins */
+}
+
+h1 {
+  font-family: "IM Fell English SC", serif;
+  font-size: 3rem;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+h2 {
+  font-family: "IM Fell English SC", serif;
+  font-size: 2rem;
+  background-color: #FFFFFF;
+  width: auto;
+  text-align: center;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+body {
+  background-image: url("../img/backgroundImage.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#player1-spells {
+  display: flex;
+  justify-content: center;
+}
+
+#player2-spells {
+  display: flex;
+  justify-content: center;
+}
+
+#resultat {
+  max-width: 400px; /* Par exemple, fixez la largeur maximale souhaitée */
+  margin: 0 auto; /* Permet de centrer horizontalement */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: #FFFFFF;
+  padding: 1rem;
+  border: 1px solid black;
+}
+#resultat p {
+  font-size: 1.5rem;
+}
+
+button {
+  width: 56px;
+  height: 56px;
+  border: none;
+  cursor: pointer;
+  margin: 2rem;
+}
+
+.bouton-joueur1,
+.bouton-joueur2 {
+  width: auto;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+#restartButton {
+  width: auto;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+.bouton-joueur1 img,
+.bouton-joueur2 img {
+  height: 80%; /* Ajuste la taille du div pour contenir l'image */
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  cursor: pointer;
+  padding: 20px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.431372549);
+  /* Couleur de l'overlay */
+  z-index: 2;
+}
+
+#selection-classe {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  background-color: #fff;
+  /* Fond de la fenêtre de sélection */
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 2px solid black;
+}
+#selection-classe h2 {
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+}
+
+/* Style pour les boutons de classe */
+#selection-classe button {
+  border: none;
+  z-index: 9998;
+  cursor: pointer;
+  width: 56px;
+  height: 56px;
+  border: none;
+  cursor: pointer;
+  margin: 2rem;
+}
+
+#selection-classe button:hover {
+  filter: brightness(150%);
+  transition: filter 0.3s ease-in;
+}/*# sourceMappingURL=main.css.map */

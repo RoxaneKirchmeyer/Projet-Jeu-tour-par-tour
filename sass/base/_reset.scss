@@ -1,0 +1,84 @@
+/* Reset CSS */
+
+/* Remise à zéro des marges et des rembourrages */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box; /* Inclure les bordures et le remplissage dans la largeur et la hauteur */
+}
+
+/* Éléments HTML5 sans styles par défaut */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* Éléments en ligne rendus comme des blocs */
+ul, ol {
+    list-style: none; /* Supprimer les puces des listes ordonnées et non ordonnées */
+}
+
+/* Hyperliens sans soulignement */
+a {
+    text-decoration: none;
+}
+
+/* Texte par défaut */
+body {
+    line-height: 1;
+}
+
+/* Polices réinitialisées pour une meilleure compatibilité entre les navigateurs */
+body, button, input, select, textarea {
+    font-family: sans-serif;
+}
+
+/* Éléments avec styles visuels */
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+
+/* Règles pour des éléments insérés via CSS, par exemple, les pseudos-éléments */
+::after, ::before {
+    box-sizing: border-box;
+}
+
+/* Éléments de table avec une largeur et un espacement de bordure par défaut */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Éléments avec une visibilité cachée */
+[hidden] {
+    display: none;
+}
+
+/* Réinitialisation des éléments qui devraient être visibles par défaut */
+progress {
+    display: inline-block; 
+    vertical-align: baseline;
+}
+
+/* Ajout d'un espacement minimal sur les éléments */
+body, button, input, select, textarea {
+    margin: 0.25rem; /* Vous pouvez ajuster la valeur selon vos besoins */
+}

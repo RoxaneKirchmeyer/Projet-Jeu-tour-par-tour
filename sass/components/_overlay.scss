@@ -1,0 +1,50 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #0000006e;
+    /* Couleur de l'overlay */
+    z-index: 2;
+}
+
+#selection-classe {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    background-color: #fff;
+    /* Fond de la fenêtre de sélection */
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid black;
+
+    h2 {
+        text-align: center;
+        width: 100%;
+        font-weight: bold;
+    }
+}
+
+/* Style pour les boutons de classe */
+#selection-classe button {
+    border: none;
+    z-index: 9998;
+    cursor: pointer;
+    width: 56px;
+    height: 56px;
+    border: none;
+    cursor: pointer;
+    margin: 2rem;
+}
+
+#selection-classe button:hover {
+    filter: brightness(150%);
+    transition: filter 0.3s ease-in;
+}

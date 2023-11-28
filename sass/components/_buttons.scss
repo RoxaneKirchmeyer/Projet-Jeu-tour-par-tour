@@ -1,0 +1,60 @@
+#player1-spells {
+    display: flex;
+    justify-content: center;
+}
+
+#player2-spells {
+    display: flex;
+    justify-content: center;
+}
+
+#resultat {
+    max-width: 400px; /* Par exemple, fixez la largeur maximale souhaitée */
+    margin: 0 auto; /* Permet de centrer horizontalement */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border: 1px solid black;
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+button {
+    width: 56px;
+    height: 56px;
+    border: none;
+    cursor: pointer;
+    margin: 2rem;
+}
+
+.bouton-joueur1,
+.bouton-joueur2 {
+    width: auto;
+    border-radius: 5px;
+    display: flex;
+    align-items: center; 
+    padding: 5px;
+}
+
+#restartButton {
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+button:disabled {
+    cursor: not-allowed; 
+}
+
+.bouton-joueur1 img,
+.bouton-joueur2 img {
+    height: 80%; /* Ajuste la taille du div pour contenir l'image */
+}
