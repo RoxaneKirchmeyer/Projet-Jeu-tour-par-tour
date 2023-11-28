@@ -18,25 +18,25 @@
                     "spellName" : "Tourbillon", 
                     "damage" : 1,
                     "description" : "Une attaque tourbillonnante infligeant les dégâts des deux armes de mêlée.",
-                    "spellImg" : "../img/warrior/ability_whirlwind.jpg"
+                    "spellImg" : "img/warrior/ability_whirlwind.jpg"
                 },
                 {
                     "spellName" : "Mur protecteur", 
                     "damage" : 0,
                     "description" : "Réduit tous les dégâts subis de 60% pendant 1 tour, mais le sort est inaccessible pendant les 3 tours suivants après son utilisation.",
-                    "spellImg" : "../img/warrior/ability_warrior_shieldwall.jpg"
+                    "spellImg" : "img/warrior/ability_warrior_shieldwall.jpg"
                 },
                 {
                     "spellName" : "Execution", 
                     "damage" : 5,
                     "description" : "Une attaque finale dévastatrice infligeant des dégâts basés sur la puissance d'attaque, ciblant uniquement les ennemis avec moins de 20% de leurs points de vie.",
-                    "spellImg" : "../img/warrior/inv_sword_48.jpg"
+                    "spellImg" : "img/warrior/inv_sword_48.jpg"
                 }
             ]
         },
         {
         "name" : "Mage", 
-        "profileImg" : "../img/mage/classicon_mage.jpg",
+        "profileImg" : "img/mage/classicon_mage.jpg",
         "healthPoint" : "20",
         "description" : "Le Mage, maître des éléments, excelle dans la destruction à distance et le soutien magique en manipulant des sorts dévastateurs.",
         "sorts" : 
@@ -45,32 +45,32 @@
                     "spellName" : "Boule de feu", 
                     "damage" : 3,
                     "description" : "Une boule ardente infligeant des dégâts de feu avec des dégâts sur le temps pendant 1 tour.",
-                    "spellImg" : "../img/mage/spell_fire_flamebolt.jpg"
+                    "spellImg" : "img/mage/spell_fire_flamebolt.jpg"
                 },
                 {
                     "spellName" : "Brûlure", 
                     "damage" : 1,
                     "description" : "Une augmentation de 3% des chances de critique pour Boule de feu et Explosion Pyrotechnique. Reste appliqué pendant 2 tours.",
-                    "spellImg" : "../img/mage/spell_fire_soulburn.jpg"
+                    "spellImg" : "img/mage/spell_fire_soulburn.jpg"
                     
                 },
                 {
                     "spellName" : "Bloc de glace", 
                     "damage" : 0,
                     "description" : "Une protection glaciale pendant 1 tour vous rendant invulnérable aux attaques physiques et magiques, mais vous interdisant d'agir, accompagnée d'une période d'Hypothermie de 3 tours vous empêchant de réutiliser cette protection.",
-                    "spellImg" : "../img/mage/spell_frost_frost.jpg"
+                    "spellImg" : "img/mage/spell_frost_frost.jpg"
                 },
                 {
                     "spellName" : "Explosion pyrotechnique", 
                     "damage" : 5,
                     "description" : "Une gigantesque boule de feu infligeant des dégâts de feu considérables, avec des dégâts sur le temps pendant 1 tour.",
-                    "spellImg" : "../img/mage/spell_fire_fireball02.jpg"
+                    "spellImg" : "img/mage/spell_fire_fireball02.jpg"
                 }
             ]
         },
         {
         "name" : "Pretre", 
-        "profileImg" : "../img/priest/classicon_priest.jpg",
+        "profileImg" : "img/priest/classicon_priest.jpg",
         "healthPoint" : "20",
         "description" : "Le Prêtre, réputé pour ses talents de soigneur, excelle aussi dans l'art du combat en infligeant des dégâts redoutables grâce à ses compétences polyvalentes.",
         "sorts" : 
@@ -80,31 +80,31 @@
                     "damage" : 0,
                     "heal" : "+2",
                     "description" : "Restaure des points de vie.",
-                    "spellImg" : "../img/priest/spell_holy_flashheal.jpg"
+                    "spellImg" : "img/priest/spell_holy_flashheal.jpg"
                 },
                 {
                     "spellName" : "Mot de l'ombre : Douleur", 
                     "damage" : 3,
                     "description" : "Un mot des ténèbres qui inflige des dégâts d'Ombre pendant 3 tours.",
-                    "spellImg" : "../img/priest/spell_shadow_shadowwordpain.jpg"
+                    "spellImg" : "img/priest/spell_shadow_shadowwordpain.jpg"
                 },
                 {
                     "spellName" : "Attaque mentale", 
                     "damage" : 5,
                     "description" : "Frappe la cible et lui inflige des dégâts d'Ombre considérables.",
-                    "spellImg" : "../img/priest/spell_shadow_unholyfrenzy.jpg"
+                    "spellImg" : "img/priest/spell_shadow_unholyfrenzy.jpg"
                 },
                 {
                     "spellName" : "Mot de pouvoir : Bouclier", 
                     "damage" : 0,
                     "description" : "Absorption de tous les dégâts subis pendant 1 tour, mais empêchant cette protection pendant les 3 tours suivants.",
-                    "spellImg" : "../img/priest/spell_holy_powerwordshield.jpg"
+                    "spellImg" : "img/priest/spell_holy_powerwordshield.jpg"
                 }
             ]
         },
         {
         "name" : "Chasseur", 
-        "profileImg" : "../img/hunter/classicon_hunter.jpg",
+        "profileImg" : "img/hunter/classicon_hunter.jpg",
         "healthPoint" : "20",
         "description" : "Le Chasseur, spécialisé dans les attaques à distance, utilise des arcs et des armes à feu, applique des affaiblissements et des pièges sur ses ennemis.",
         "sorts" : 
@@ -112,26 +112,25 @@
                     "spellName" : "Tir assuré", 
                     "damage" : 3,
                     "description" : "Un tir précis infligeant les dégâts de l'arme, avec un bonus de dégâts aux cibles endormies.",
-                    "spellImg" : "../img/hunter/ability_hunter_steadyshot.jpg"
+                    "spellImg" : "img/hunter/ability_hunter_steadyshot.jpg"
                 },
                 {
                     "spellName" : "Piqûre de wyverne", 
                     "damage" : 1,
                     "description" : "Une piqûre qui endort la cible pendant 1 tour.",
-                    "spellImg" : "../img/hunter/inv_spear_02.jpg"
+                    "spellImg" : "img/hunter/inv_spear_02.jpg"
                 },               
                 {
                     "spellName" : "Tir explosif", 
                     "damage" : 3,
                     "description" : "Un lancer de charge explosive infligeant des dégâts de feu initiaux et explosant à nouveau sur la cible pendant 3 tours supplémentaires.",
-                    "spellImg" : "../img/hunter/ability_hunter_explosiveshot.jpg"
+                    "spellImg" : "img/hunter/ability_hunter_explosiveshot.jpg"
                 },
                 {
                     "spellName" : "Tir mortel", 
-                    "img" : "/img/hunter/ability_hunter_assassinate2.jpg",
                     "damage" : 5,
                     "description" : "Une attaque à distance dévastatrice infligeant 200% des dégâts de l'arme, utilisable uniquement sur la cible ennemie à 20% ou moins de ses points de vie.",
-                    "spellImg" : "../img/hunter/ability_hunter_assassinate2.jpg"
+                    "spellImg" : "img/hunter/ability_hunter_assassinate2.jpg"
                 }
             ]
         }
