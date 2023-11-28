@@ -1,6 +1,6 @@
 const selectedClasses = [];
 
-fetch('./json/classes.json')
+fetch('../json/classes.json')
     .then(response => response.json())
     .then(data => {
         const classesData = data;

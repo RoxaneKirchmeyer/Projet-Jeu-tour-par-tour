@@ -3,7 +3,7 @@
     [ 
         {
         "name" : "Guerrier", 
-        "profileImg" : "../img./warrior/classicon_warrior.jpg",
+        "profileImg" : "../img/warrior/classicon_warrior.jpg",
         "healthPoint" : "20",
         "description" : "Les Guerriers, une classe redoutable, excellent dans l'absorption des dégâts et l'infliction de dommages considérables en combat rapproché.",
         "sorts" : 
