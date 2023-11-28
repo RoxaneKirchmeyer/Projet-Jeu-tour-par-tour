@@ -3,7 +3,7 @@
     [ 
         {
         "name" : "Guerrier", 
-        "profileImg" : "img/warrior/classicon_warrior.jpg",
+        "profileImg" : "./img./warrior/classicon_warrior.jpg",
         "healthPoint" : "20",
         "description" : "Les Guerriers, une classe redoutable, excellent dans l'absorption des dégâts et l'infliction de dommages considérables en combat rapproché.",
         "sorts" : 
@@ -12,7 +12,7 @@
                     "spellName" : "Frappe héroïque", 
                     "damage" : 2,
                     "description" : "Une attaque offensive augmentant les dégâts infligés en mêlée.",
-                    "spellImg" : "img/warrior/ability_rogue_ambush.jpg"
+                    "spellImg" : "../img/warrior/ability_rogue_ambush.jpg"
                 },
                 {
                     "spellName" : "Tourbillon", 
